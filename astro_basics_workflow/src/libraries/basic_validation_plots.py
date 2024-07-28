@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.special import erf
 
-def halo_mass_function(mass, redshift, rho_m=2.775e11, delta_c=1.686):
+def sheth_Tormen_HMF(mass, redshift, rho_m=2.775e11, delta_c=1.686):
     """
     Calculate the halo mass function using the Sheth-Tormen mass function.
     
